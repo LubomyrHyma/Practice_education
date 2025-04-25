@@ -69,8 +69,8 @@ flowchart TD
     B --> T[text.txt]
     B --> L1PY[lab1.py]
     B --> L3[lab3.py]
-    BC[block.csv] --> B
-    VC[voute.csv] --> B
-    BR[block_results.csv] --> B
+    BC[block.csv] --> L1PY[lab1.py]
+    VC[voute.csv] --> L1PY[lab1.py]
+    L1PY[lab1.py] --> BR[block_results.csv]
 
     
