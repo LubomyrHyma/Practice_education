@@ -65,8 +65,8 @@
 ```mermaid
 flowchart TD
     A[Репозиторій] --> B[Гілка master]
-    B[oleksiq] --> L1PY[lab1.py]
     B --> T[text.txt]
+    B1[oleksiq] --> L1PY[lab1.py]
     B --> L1PY[lab1.py]
     B --> L3PY[lab3.py]
     B --> BC[block.csv]
