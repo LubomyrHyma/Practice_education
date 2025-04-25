@@ -67,10 +67,10 @@
 flowchart TD
     A[Репозиторій] --> B[Гілка master]
     B --> T[text.txt]
-    B --> BC[block.csv]
-    B --> VC[voute.csv]
-    B --> BR[block_results.csv]
     B --> L1PY[lab1.py]
     B --> L3[lab3.py]
+    BC[block.csv] --> B
+    VC[voute.csv] --> B
+    BR[block_results.csv] --> B
+
     
-    E --> L1PY
